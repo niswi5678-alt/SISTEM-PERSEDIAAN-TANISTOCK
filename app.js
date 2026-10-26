@@ -2,8 +2,8 @@
 import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/+esm';
 
 // Isi dari Supabase > Project Settings > API
-const SUPABASE_URL = 'https://PROJECT-ID-ANDA.supabase.co';
-const SUPABASE_ANON_KEY = 'ANON-PUBLIC-KEY-ANDA';
+const SUPABASE_URL = 'https://rsahncvirdmckgdmwhav.supabase.co';
+const SUPABASE_ANON_KEY = 'sb_publishable_vSOBwyB1wKXmxdbtI2qveA_tJRbzbCX';
 
 export const db = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
