@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Toko Tani — Pembukuan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <aside class="side">
+    <div class="brand">Toko Tani<small>Pembukuan harian</small></div>
+    <nav id="nav">
+      <button data-view="dashboard" class="on">Ringkasan</button>
+      <button data-view="transaksi">Transaksi</button>
+      <button data-view="produk">Produk &amp; stok</button>
+      <button data-view="kontak">Pelanggan &amp; pemasok</button>
+    </nav>
+  </aside>
+
+  <main>
+    <header class="top">
+      <h1 id="judul">Ringkasan</h1>
+      <button class="btn" id="btnBaru">Catat transaksi</button>
+    </header>
+    <div id="isi"></div>
+  </main>
+
+  <dialog id="dlg"><form method="dialog" id="frm"></form></dialog>
+  <div id="toast" role="status"></div>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
